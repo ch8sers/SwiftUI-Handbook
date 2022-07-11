@@ -9,22 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack(alignment: .topLeading ) {
-            Rectangle()
-                .foregroundColor(.blue)
-            Text("Hello, world!")
-                .font(.title)
-            Spacer()
-            Text("Second Line")
-           
+        Image("Illustration")
         }
-        .padding()
-        .frame(width: 320)
+        
     }
-}
+    
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .preferredColorScheme(.dark)
     }
 }
