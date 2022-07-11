@@ -11,6 +11,7 @@
 		79C5541A287BD97F002F059B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C55419287BD97F002F059B /* ContentView.swift */; };
 		79C5541C287BD980002F059B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C5541B287BD980002F059B /* Assets.xcassets */; };
 		79C5541F287BD980002F059B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C5541E287BD980002F059B /* Preview Assets.xcassets */; };
+		79C55442287BE5C0002F059B /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C55441287BE5C0002F059B /* Symbols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		79C55419287BD97F002F059B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		79C5541B287BD980002F059B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79C5541E287BD980002F059B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79C55441287BE5C0002F059B /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				79C55417287BD97F002F059B /* SwiftUI_HandbookApp.swift */,
 				79C55419287BD97F002F059B /* ContentView.swift */,
+				79C55441287BE5C0002F059B /* Symbols.swift */,
 				79C5541B287BD980002F059B /* Assets.xcassets */,
 				79C5541D287BD980002F059B /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79C55442287BE5C0002F059B /* Symbols.swift in Sources */,
 				79C5541A287BD97F002F059B /* ContentView.swift in Sources */,
 				79C55418287BD97F002F059B /* SwiftUI_HandbookApp.swift in Sources */,
 			);
