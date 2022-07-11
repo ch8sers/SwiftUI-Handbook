@@ -9,8 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack(alignment: .topLeading ) {
+            Rectangle()
+                .foregroundColor(.blue)
+            Text("Hello, world!")
+                .font(.title)
+            Spacer()
+            Text("Second Line")
+           
+        }
+        .padding()
+        .frame(width: 320)
     }
 }
 
