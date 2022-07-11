@@ -9,15 +9,32 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Image("Illustration")
+        ZStack {
+            Rectangle()
+                .fill(Color.blue).ignoresSafeArea()
+            
+            VStack {
+                Circle()
+                    .stroke(Color.black, lineWidth: 2)
+                    .frame(width: 44, height: 44)
+                Text("Ch8sers").bold()
+                Capsule()
+                    .foregroundColor(Color.green)
+                    .frame(height: 44)
+                    .overlay(Text("Sign Up"))
+            }
+            .padding()
+            .background(Color.white)
+            .clipShape(RoundedRectangle(cornerRadius: 25.0, style: .continuous))
+            .padding()
         }
-        
     }
+        
+}
     
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .preferredColorScheme(.dark)
     }
 }
