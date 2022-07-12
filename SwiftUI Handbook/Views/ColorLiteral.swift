@@ -12,7 +12,8 @@ struct ColorLiteral: View {
         VStack {
             Text("Color Literal")
                 .font(.title).bold()
-                .foregroundColor(Color(.purple))
+                .foregroundColor(Color(.white))
+                .shadow(radius: 5)
         }
         .frame(width: 300, height: 200)
         .background(Image(uiImage: #imageLiteral(resourceName: "gradient")).resizable().aspectRatio(contentMode: .fill))
