@@ -66,6 +66,16 @@
 		7923FB1D287C584C00E6EE3D /* TransfromAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7923FB1C287C584C00E6EE3D /* TransfromAnimations.swift */; };
 		7923FB1F287CA48000E6EE3D /* TapAnimationDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7923FB1E287CA48000E6EE3D /* TapAnimationDelay.swift */; };
 		7923FB21287CA69800E6EE3D /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7923FB20287CA69800E6EE3D /* LongPressGesture.swift */; };
+		79552B4B287F19ED00039F57 /* AdvancedMatchedGeo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79552B4A287F19ED00039F57 /* AdvancedMatchedGeo.swift */; };
+		79552B4D287F1B0400039F57 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79552B4C287F1B0400039F57 /* PlayView.swift */; };
+		79552B50287F1EF500039F57 /* SwiftManagerPAckage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79552B4F287F1EF500039F57 /* SwiftManagerPAckage.swift */; };
+		79552B53287F1FA400039F57 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 79552B52287F1FA400039F57 /* SwiftUIX */; };
+		79552B55287F217700039F57 /* BakcgroundBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79552B54287F217700039F57 /* BakcgroundBlur.swift */; };
+		79552B57287F304600039F57 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79552B56287F304600039F57 /* VisualEffectBlur.swift */; };
+		79552B5B287F34CF00039F57 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 79552B5A287F34CF00039F57 /* Lottie */; };
+		79552B5D287F34F400039F57 /* LottieAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79552B5C287F34F400039F57 /* LottieAnimation.swift */; };
+		79552B5F287F350C00039F57 /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = 79552B5E287F350C00039F57 /* success.json */; };
+		79552B62287F353700039F57 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79552B61287F353700039F57 /* LottieView.swift */; };
 		796DD61E287BE76D0031CD48 /* ColorLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796DD61D287BE76D0031CD48 /* ColorLiteral.swift */; };
 		797BD1D3287CA9470062F395 /* DragGestureHB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797BD1D2287CA9470062F395 /* DragGestureHB.swift */; };
 		797BD1D5287CAAD00062F395 /* MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797BD1D4287CAAD00062F395 /* MatchedGeometryEffect.swift */; };
@@ -137,6 +147,14 @@
 		7923FB1C287C584C00E6EE3D /* TransfromAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransfromAnimations.swift; sourceTree = "<group>"; };
 		7923FB1E287CA48000E6EE3D /* TapAnimationDelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapAnimationDelay.swift; sourceTree = "<group>"; };
 		7923FB20287CA69800E6EE3D /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
+		79552B4A287F19ED00039F57 /* AdvancedMatchedGeo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedMatchedGeo.swift; sourceTree = "<group>"; };
+		79552B4C287F1B0400039F57 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		79552B4F287F1EF500039F57 /* SwiftManagerPAckage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftManagerPAckage.swift; sourceTree = "<group>"; };
+		79552B54287F217700039F57 /* BakcgroundBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakcgroundBlur.swift; sourceTree = "<group>"; };
+		79552B56287F304600039F57 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		79552B5C287F34F400039F57 /* LottieAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimation.swift; sourceTree = "<group>"; };
+		79552B5E287F350C00039F57 /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
+		79552B61287F353700039F57 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		796DD61D287BE76D0031CD48 /* ColorLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLiteral.swift; sourceTree = "<group>"; };
 		797BD1D2287CA9470062F395 /* DragGestureHB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureHB.swift; sourceTree = "<group>"; };
 		797BD1D4287CAAD00062F395 /* MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect.swift; sourceTree = "<group>"; };
@@ -153,6 +171,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79552B53287F1FA400039F57 /* SwiftUIX in Frameworks */,
+				79552B5B287F34CF00039F57 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +268,34 @@
 			path = OpenSans;
 			sourceTree = "<group>";
 		};
+		79552B4E287F1B0900039F57 /* AdvanceGeoEffect */ = {
+			isa = PBXGroup;
+			children = (
+				79552B4A287F19ED00039F57 /* AdvancedMatchedGeo.swift */,
+				79552B4C287F1B0400039F57 /* PlayView.swift */,
+			);
+			path = AdvanceGeoEffect;
+			sourceTree = "<group>";
+		};
+		79552B58287F304900039F57 /* BackgroundBlur */ = {
+			isa = PBXGroup;
+			children = (
+				79552B54287F217700039F57 /* BakcgroundBlur.swift */,
+				79552B56287F304600039F57 /* VisualEffectBlur.swift */,
+			);
+			path = BackgroundBlur;
+			sourceTree = "<group>";
+		};
+		79552B60287F352000039F57 /* LottieAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				79552B5C287F34F400039F57 /* LottieAnimation.swift */,
+				79552B5E287F350C00039F57 /* success.json */,
+				79552B61287F353700039F57 /* LottieView.swift */,
+			);
+			path = LottieAnimation;
+			sourceTree = "<group>";
+		};
 		796DD61C287BE72E0031CD48 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,6 +321,10 @@
 				7923FB20287CA69800E6EE3D /* LongPressGesture.swift */,
 				797BD1D2287CA9470062F395 /* DragGestureHB.swift */,
 				797BD1D4287CAAD00062F395 /* MatchedGeometryEffect.swift */,
+				79552B4F287F1EF500039F57 /* SwiftManagerPAckage.swift */,
+				79552B60287F352000039F57 /* LottieAnimation */,
+				79552B58287F304900039F57 /* BackgroundBlur */,
+				79552B4E287F1B0900039F57 /* AdvanceGeoEffect */,
 				7923FAB6287C39D500E6EE3D /* Open_Sans */,
 			);
 			path = Views;
@@ -330,6 +382,10 @@
 			dependencies = (
 			);
 			name = "SwiftUI Handbook";
+			packageProductDependencies = (
+				79552B52287F1FA400039F57 /* SwiftUIX */,
+				79552B5A287F34CF00039F57 /* Lottie */,
+			);
 			productName = "SwiftUI Handbook";
 			productReference = 79C55414287BD97F002F059B /* SwiftUI Handbook.app */;
 			productType = "com.apple.product-type.application";
@@ -358,6 +414,10 @@
 				Base,
 			);
 			mainGroup = 79C5540B287BD97F002F059B;
+			packageReferences = (
+				79552B51287F1FA400039F57 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+				79552B59287F34CF00039F57 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 79C55415287BD97F002F059B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -407,6 +467,7 @@
 				7923FAFD287C39D500E6EE3D /* OpenSans-Light.ttf in Resources */,
 				7923FAED287C39D500E6EE3D /* OpenSans_SemiCondensed-Italic.ttf in Resources */,
 				7923FAE9287C39D500E6EE3D /* OpenSans_SemiCondensed-SemiBold.ttf in Resources */,
+				79552B5F287F350C00039F57 /* success.json in Resources */,
 				7923FAEC287C39D500E6EE3D /* OpenSans_SemiCondensed-LightItalic.ttf in Resources */,
 				7923FAFA287C39D500E6EE3D /* OpenSans_Condensed-ExtraBoldItalic.ttf in Resources */,
 				7923FAF3287C39D500E6EE3D /* OpenSans_Condensed-LightItalic.ttf in Resources */,
@@ -425,22 +486,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				7923FB11287C3F1200E6EE3D /* MaskAndTransParency.swift in Sources */,
+				79552B55287F217700039F57 /* BakcgroundBlur.swift in Sources */,
 				7923FAA6287C2F3E00E6EE3D /* SideBar.swift in Sources */,
 				7923FAB3287C375600E6EE3D /* TextView.swift in Sources */,
 				79C55442287BE5C0002F059B /* Symbols.swift in Sources */,
+				79552B50287F1EF500039F57 /* SwiftManagerPAckage.swift in Sources */,
 				796DD61E287BE76D0031CD48 /* ColorLiteral.swift in Sources */,
 				797BD1D3287CA9470062F395 /* DragGestureHB.swift in Sources */,
+				79552B4D287F1B0400039F57 /* PlayView.swift in Sources */,
 				7923FB0D287C3CC100E6EE3D /* MaxWidthAndFrame.swift in Sources */,
 				7923FB19287C52F800E6EE3D /* ViewTransitionsAndAnimations.swift in Sources */,
 				7923FB0F287C3DBA00E6EE3D /* ShadowsAndColor.swift in Sources */,
 				7923FAAD287C330F00E6EE3D /* ToolBar.swift in Sources */,
+				79552B4B287F19ED00039F57 /* AdvancedMatchedGeo.swift in Sources */,
 				7923FAAA287C305D00E6EE3D /* TutorialsView.swift in Sources */,
+				79552B57287F304600039F57 /* VisualEffectBlur.swift in Sources */,
 				7923FAB1287C362900E6EE3D /* SafeAreaLayout.swift in Sources */,
 				7923FB17287C515C00E6EE3D /* AnimationStates.swift in Sources */,
 				7923FAA8287C303E00E6EE3D /* HomeView.swift in Sources */,
 				797BD1D5287CAAD00062F395 /* MatchedGeometryEffect.swift in Sources */,
+				79552B5D287F34F400039F57 /* LottieAnimation.swift in Sources */,
 				7923FB13287C409500E6EE3D /* ClipShape and Smooth.swift in Sources */,
 				7923FB1F287CA48000E6EE3D /* TapAnimationDelay.swift in Sources */,
+				79552B62287F353700039F57 /* LottieView.swift in Sources */,
 				7923FB1B287C54F500E6EE3D /* AnimationModifierAndTiming.swift in Sources */,
 				7923FAAF287C34BE00E6EE3D /* ImageView.swift in Sources */,
 				7923FAB5287C398300E6EE3D /* CustomFont.swift in Sources */,
@@ -651,6 +719,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		79552B51287F1FA400039F57 /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.2;
+			};
+		};
+		79552B59287F34CF00039F57 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		79552B52287F1FA400039F57 /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79552B51287F1FA400039F57 /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+		79552B5A287F34CF00039F57 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79552B59287F34CF00039F57 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 79C5540C287BD97F002F059B /* Project object */;
 }
