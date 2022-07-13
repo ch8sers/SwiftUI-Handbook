@@ -77,6 +77,7 @@
 		79552B5F287F350C00039F57 /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = 79552B5E287F350C00039F57 /* success.json */; };
 		79552B62287F353700039F57 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79552B61287F353700039F57 /* LottieView.swift */; };
 		79552B64287F3C4600039F57 /* LazyGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79552B63287F3C4600039F57 /* LazyGridLayout.swift */; };
+		79552B66287F3F7700039F57 /* LazyStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79552B65287F3F7700039F57 /* LazyStack.swift */; };
 		796DD61E287BE76D0031CD48 /* ColorLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796DD61D287BE76D0031CD48 /* ColorLiteral.swift */; };
 		797BD1D3287CA9470062F395 /* DragGestureHB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797BD1D2287CA9470062F395 /* DragGestureHB.swift */; };
 		797BD1D5287CAAD00062F395 /* MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797BD1D4287CAAD00062F395 /* MatchedGeometryEffect.swift */; };
@@ -157,6 +158,7 @@
 		79552B5E287F350C00039F57 /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
 		79552B61287F353700039F57 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		79552B63287F3C4600039F57 /* LazyGridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridLayout.swift; sourceTree = "<group>"; };
+		79552B65287F3F7700039F57 /* LazyStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyStack.swift; sourceTree = "<group>"; };
 		796DD61D287BE76D0031CD48 /* ColorLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLiteral.swift; sourceTree = "<group>"; };
 		797BD1D2287CA9470062F395 /* DragGestureHB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureHB.swift; sourceTree = "<group>"; };
 		797BD1D4287CAAD00062F395 /* MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect.swift; sourceTree = "<group>"; };
@@ -325,6 +327,7 @@
 				797BD1D4287CAAD00062F395 /* MatchedGeometryEffect.swift */,
 				79552B4F287F1EF500039F57 /* SwiftManagerPAckage.swift */,
 				79552B63287F3C4600039F57 /* LazyGridLayout.swift */,
+				79552B65287F3F7700039F57 /* LazyStack.swift */,
 				79552B60287F352000039F57 /* LottieAnimation */,
 				79552B58287F304900039F57 /* BackgroundBlur */,
 				79552B4E287F1B0900039F57 /* AdvanceGeoEffect */,
@@ -492,6 +495,7 @@
 				79552B55287F217700039F57 /* BakcgroundBlur.swift in Sources */,
 				7923FAA6287C2F3E00E6EE3D /* SideBar.swift in Sources */,
 				7923FAB3287C375600E6EE3D /* TextView.swift in Sources */,
+				79552B66287F3F7700039F57 /* LazyStack.swift in Sources */,
 				79C55442287BE5C0002F059B /* Symbols.swift in Sources */,
 				79552B50287F1EF500039F57 /* SwiftManagerPAckage.swift in Sources */,
 				796DD61E287BE76D0031CD48 /* ColorLiteral.swift in Sources */,

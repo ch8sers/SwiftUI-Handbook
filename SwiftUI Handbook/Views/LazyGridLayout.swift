@@ -10,11 +10,7 @@ import SwiftUI
 struct LazyGridLayout: View {
     var body: some View {
         ScrollView {
-            LazyVGrid(columns: [
-                GridItem(.fixed(80), spacing: 16),
-                GridItem(.fixed(160), spacing: 16),
-                GridItem(.fixed(100), spacing: 16)
-            ], spacing: 16) {
+            LazyVGrid(columns: Array(repeating: .init(.flexible(), spacing:16), count: 4), spacing: 16) {
                 ForEach(0..<12) { item in
                 RoundedRectangle(cornerRadius: 10)
                     .fill(Color.blue)
