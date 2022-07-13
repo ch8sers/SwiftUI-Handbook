@@ -76,6 +76,7 @@
 		79552B5D287F34F400039F57 /* LottieAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79552B5C287F34F400039F57 /* LottieAnimation.swift */; };
 		79552B5F287F350C00039F57 /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = 79552B5E287F350C00039F57 /* success.json */; };
 		79552B62287F353700039F57 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79552B61287F353700039F57 /* LottieView.swift */; };
+		79552B64287F3C4600039F57 /* LazyGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79552B63287F3C4600039F57 /* LazyGridLayout.swift */; };
 		796DD61E287BE76D0031CD48 /* ColorLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796DD61D287BE76D0031CD48 /* ColorLiteral.swift */; };
 		797BD1D3287CA9470062F395 /* DragGestureHB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797BD1D2287CA9470062F395 /* DragGestureHB.swift */; };
 		797BD1D5287CAAD00062F395 /* MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797BD1D4287CAAD00062F395 /* MatchedGeometryEffect.swift */; };
@@ -155,6 +156,7 @@
 		79552B5C287F34F400039F57 /* LottieAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimation.swift; sourceTree = "<group>"; };
 		79552B5E287F350C00039F57 /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
 		79552B61287F353700039F57 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		79552B63287F3C4600039F57 /* LazyGridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridLayout.swift; sourceTree = "<group>"; };
 		796DD61D287BE76D0031CD48 /* ColorLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLiteral.swift; sourceTree = "<group>"; };
 		797BD1D2287CA9470062F395 /* DragGestureHB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureHB.swift; sourceTree = "<group>"; };
 		797BD1D4287CAAD00062F395 /* MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect.swift; sourceTree = "<group>"; };
@@ -322,6 +324,7 @@
 				797BD1D2287CA9470062F395 /* DragGestureHB.swift */,
 				797BD1D4287CAAD00062F395 /* MatchedGeometryEffect.swift */,
 				79552B4F287F1EF500039F57 /* SwiftManagerPAckage.swift */,
+				79552B63287F3C4600039F57 /* LazyGridLayout.swift */,
 				79552B60287F352000039F57 /* LottieAnimation */,
 				79552B58287F304900039F57 /* BackgroundBlur */,
 				79552B4E287F1B0900039F57 /* AdvanceGeoEffect */,
@@ -498,6 +501,7 @@
 				7923FB19287C52F800E6EE3D /* ViewTransitionsAndAnimations.swift in Sources */,
 				7923FB0F287C3DBA00E6EE3D /* ShadowsAndColor.swift in Sources */,
 				7923FAAD287C330F00E6EE3D /* ToolBar.swift in Sources */,
+				79552B64287F3C4600039F57 /* LazyGridLayout.swift in Sources */,
 				79552B4B287F19ED00039F57 /* AdvancedMatchedGeo.swift in Sources */,
 				7923FAAA287C305D00E6EE3D /* TutorialsView.swift in Sources */,
 				79552B57287F304600039F57 /* VisualEffectBlur.swift in Sources */,
