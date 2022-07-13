@@ -20,7 +20,13 @@ struct NavigationViewHB: View {
                 }
                 NavigationLink(destination: AdvancedMatchedGeo()) {
                     RoundedRectangle(cornerRadius: 30)
-                        .fill(Color.orange)
+                        .fill(Color.blue)
+                        .frame(height: 100)
+                    .padding()
+                }
+                NavigationLink(destination: ColorPickerHB()) {
+                    RoundedRectangle(cornerRadius: 30)
+                        .fill(Color.red)
                         .frame(height: 100)
                     .padding()
                 }
