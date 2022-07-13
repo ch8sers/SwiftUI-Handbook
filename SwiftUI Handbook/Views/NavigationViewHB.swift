@@ -30,6 +30,36 @@ struct NavigationViewHB: View {
                         .frame(height: 100)
                     .padding()
                 }
+                NavigationLink(destination: HoverEffectHB()) {
+                    RoundedRectangle(cornerRadius: 30)
+                        .fill(Color.green)
+                        .frame(height: 100)
+                    .padding()
+                }
+                NavigationLink(destination: TabViewPagination()) {
+                    RoundedRectangle(cornerRadius: 30)
+                        .fill(Color.orange)
+                        .frame(height: 100)
+                    .padding()
+                }
+                NavigationLink(destination: LinkHB()) {
+                    RoundedRectangle(cornerRadius: 30)
+                        .fill(Color.blue)
+                        .frame(height: 100)
+                    .padding()
+                }
+                NavigationLink(destination: AnimationModifierAndTiming()) {
+                    RoundedRectangle(cornerRadius: 30)
+                        .fill(Color.red)
+                        .frame(height: 100)
+                    .padding()
+                }
+                NavigationLink(destination: ViewTransitionsAndAnimations()) {
+                    RoundedRectangle(cornerRadius: 30)
+                        .fill(Color.green)
+                        .frame(height: 100)
+                    .padding()
+                }
             }
             .navigationTitle("Today")
             .navigationBarItems(trailing: Image(systemName: "person.crop.circle"))

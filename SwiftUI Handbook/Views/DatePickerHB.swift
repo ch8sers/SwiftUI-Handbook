@@ -23,5 +23,6 @@ struct DatePickerHB: View {
 struct DatePickerHB_Previews: PreviewProvider {
     static var previews: some View {
         DatePickerHB()
+            .previewInterfaceOrientation(.landscapeLeft)
     }
 }

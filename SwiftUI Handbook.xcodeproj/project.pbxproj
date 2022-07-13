@@ -82,6 +82,7 @@
 		79552B6C287F44FE00039F57 /* LinkHB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79552B6B287F44FE00039F57 /* LinkHB.swift */; };
 		796930A9287F47310074E964 /* ColorPickerHB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796930A8287F47310074E964 /* ColorPickerHB.swift */; };
 		796930AB287F49870074E964 /* DatePickerHB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796930AA287F49870074E964 /* DatePickerHB.swift */; };
+		796930AD287F4B990074E964 /* HoverEffectHB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796930AC287F4B990074E964 /* HoverEffectHB.swift */; };
 		796DD61E287BE76D0031CD48 /* ColorLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796DD61D287BE76D0031CD48 /* ColorLiteral.swift */; };
 		797BD1D3287CA9470062F395 /* DragGestureHB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797BD1D2287CA9470062F395 /* DragGestureHB.swift */; };
 		797BD1D5287CAAD00062F395 /* MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797BD1D4287CAAD00062F395 /* MatchedGeometryEffect.swift */; };
@@ -167,6 +168,7 @@
 		79552B6B287F44FE00039F57 /* LinkHB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkHB.swift; sourceTree = "<group>"; };
 		796930A8287F47310074E964 /* ColorPickerHB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerHB.swift; sourceTree = "<group>"; };
 		796930AA287F49870074E964 /* DatePickerHB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerHB.swift; sourceTree = "<group>"; };
+		796930AC287F4B990074E964 /* HoverEffectHB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoverEffectHB.swift; sourceTree = "<group>"; };
 		796DD61D287BE76D0031CD48 /* ColorLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLiteral.swift; sourceTree = "<group>"; };
 		797BD1D2287CA9470062F395 /* DragGestureHB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureHB.swift; sourceTree = "<group>"; };
 		797BD1D4287CAAD00062F395 /* MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect.swift; sourceTree = "<group>"; };
@@ -311,6 +313,7 @@
 		796DD61C287BE72E0031CD48 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				79552B69287F411900039F57 /* NavigationViewHB.swift */,
 				79C55419287BD97F002F059B /* ContentView.swift */,
 				79C55441287BE5C0002F059B /* Symbols.swift */,
 				796DD61D287BE76D0031CD48 /* ColorLiteral.swift */,
@@ -333,10 +336,10 @@
 				7923FB20287CA69800E6EE3D /* LongPressGesture.swift */,
 				797BD1D2287CA9470062F395 /* DragGestureHB.swift */,
 				797BD1D4287CAAD00062F395 /* MatchedGeometryEffect.swift */,
+				796930AC287F4B990074E964 /* HoverEffectHB.swift */,
 				79552B4F287F1EF500039F57 /* SwiftManagerPAckage.swift */,
 				79552B63287F3C4600039F57 /* LazyGridLayout.swift */,
 				79552B65287F3F7700039F57 /* LazyStack.swift */,
-				79552B69287F411900039F57 /* NavigationViewHB.swift */,
 				796930AA287F49870074E964 /* DatePickerHB.swift */,
 				79552B6B287F44FE00039F57 /* LinkHB.swift */,
 				796930A8287F47310074E964 /* ColorPickerHB.swift */,
@@ -514,6 +517,7 @@
 				796DD61E287BE76D0031CD48 /* ColorLiteral.swift in Sources */,
 				797BD1D3287CA9470062F395 /* DragGestureHB.swift in Sources */,
 				79552B4D287F1B0400039F57 /* PlayView.swift in Sources */,
+				796930AD287F4B990074E964 /* HoverEffectHB.swift in Sources */,
 				796930AB287F49870074E964 /* DatePickerHB.swift in Sources */,
 				7923FB0D287C3CC100E6EE3D /* MaxWidthAndFrame.swift in Sources */,
 				7923FB19287C52F800E6EE3D /* ViewTransitionsAndAnimations.swift in Sources */,
