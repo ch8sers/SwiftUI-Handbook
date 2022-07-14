@@ -86,6 +86,17 @@
 		796DD61E287BE76D0031CD48 /* ColorLiteral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796DD61D287BE76D0031CD48 /* ColorLiteral.swift */; };
 		797BD1D3287CA9470062F395 /* DragGestureHB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797BD1D2287CA9470062F395 /* DragGestureHB.swift */; };
 		797BD1D5287CAAD00062F395 /* MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797BD1D4287CAAD00062F395 /* MatchedGeometryEffect.swift */; };
+		798193D8287F53DE007EAC4A /* ComponentsHB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798193D7287F53DE007EAC4A /* ComponentsHB.swift */; };
+		798193DC287F5641007EAC4A /* LargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798193DB287F5641007EAC4A /* LargeButton.swift */; };
+		798193DE287F56EE007EAC4A /* BindingHB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798193DD287F56EE007EAC4A /* BindingHB.swift */; };
+		798193E1287F5787007EAC4A /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798193E0287F5787007EAC4A /* NewView.swift */; };
+		798193E3287F5883007EAC4A /* StaticDataHB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798193E2287F5883007EAC4A /* StaticDataHB.swift */; };
+		798193E5287F5A10007EAC4A /* FullScreenModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798193E4287F5A10007EAC4A /* FullScreenModal.swift */; };
+		798193E7287F5A59007EAC4A /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798193E6287F5A59007EAC4A /* ModalView.swift */; };
+		79C2BD0A2880884D00D136C8 /* HideStatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2BD092880884D00D136C8 /* HideStatusBar.swift */; };
+		79C2BD0C2880892400D136C8 /* RedactedPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2BD0B2880892400D136C8 /* RedactedPlaceholder.swift */; };
+		79C2BD0E28808D5500D136C8 /* Horizontal3DScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2BD0D28808D5500D136C8 /* Horizontal3DScroll.swift */; };
+		79C2BD102880905D00D136C8 /* AnimationRepeatDelaySpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2BD0F2880905D00D136C8 /* AnimationRepeatDelaySpeed.swift */; };
 		79C55418287BD97F002F059B /* SwiftUI_HandbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C55417287BD97F002F059B /* SwiftUI_HandbookApp.swift */; };
 		79C5541A287BD97F002F059B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C55419287BD97F002F059B /* ContentView.swift */; };
 		79C5541C287BD980002F059B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C5541B287BD980002F059B /* Assets.xcassets */; };
@@ -172,6 +183,17 @@
 		796DD61D287BE76D0031CD48 /* ColorLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLiteral.swift; sourceTree = "<group>"; };
 		797BD1D2287CA9470062F395 /* DragGestureHB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureHB.swift; sourceTree = "<group>"; };
 		797BD1D4287CAAD00062F395 /* MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect.swift; sourceTree = "<group>"; };
+		798193D7287F53DE007EAC4A /* ComponentsHB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsHB.swift; sourceTree = "<group>"; };
+		798193DB287F5641007EAC4A /* LargeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeButton.swift; sourceTree = "<group>"; };
+		798193DD287F56EE007EAC4A /* BindingHB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingHB.swift; sourceTree = "<group>"; };
+		798193E0287F5787007EAC4A /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
+		798193E2287F5883007EAC4A /* StaticDataHB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticDataHB.swift; sourceTree = "<group>"; };
+		798193E4287F5A10007EAC4A /* FullScreenModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenModal.swift; sourceTree = "<group>"; };
+		798193E6287F5A59007EAC4A /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		79C2BD092880884D00D136C8 /* HideStatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideStatusBar.swift; sourceTree = "<group>"; };
+		79C2BD0B2880892400D136C8 /* RedactedPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedactedPlaceholder.swift; sourceTree = "<group>"; };
+		79C2BD0D28808D5500D136C8 /* Horizontal3DScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horizontal3DScroll.swift; sourceTree = "<group>"; };
+		79C2BD0F2880905D00D136C8 /* AnimationRepeatDelaySpeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationRepeatDelaySpeed.swift; sourceTree = "<group>"; };
 		79C55414287BD97F002F059B /* SwiftUI Handbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Handbook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C55417287BD97F002F059B /* SwiftUI_HandbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_HandbookApp.swift; sourceTree = "<group>"; };
 		79C55419287BD97F002F059B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -328,6 +350,7 @@
 				7923FB10287C3F1200E6EE3D /* MaskAndTransParency.swift */,
 				7923FB12287C409500E6EE3D /* ClipShape and Smooth.swift */,
 				7923FB14287C507A00E6EE3D /* TabViewPagination.swift */,
+				79C2BD092880884D00D136C8 /* HideStatusBar.swift */,
 				7923FB16287C515C00E6EE3D /* AnimationStates.swift */,
 				7923FB18287C52F800E6EE3D /* ViewTransitionsAndAnimations.swift */,
 				7923FB1A287C54F500E6EE3D /* AnimationModifierAndTiming.swift */,
@@ -337,18 +360,60 @@
 				797BD1D2287CA9470062F395 /* DragGestureHB.swift */,
 				797BD1D4287CAAD00062F395 /* MatchedGeometryEffect.swift */,
 				796930AC287F4B990074E964 /* HoverEffectHB.swift */,
+				798193E2287F5883007EAC4A /* StaticDataHB.swift */,
+				798193E8287F5A68007EAC4A /* FullScreenModalView */,
+				798193DF287F5779007EAC4A /* Binding */,
+				798193D9287F561F007EAC4A /* Components */,
 				79552B4F287F1EF500039F57 /* SwiftManagerPAckage.swift */,
 				79552B63287F3C4600039F57 /* LazyGridLayout.swift */,
 				79552B65287F3F7700039F57 /* LazyStack.swift */,
 				796930AA287F49870074E964 /* DatePickerHB.swift */,
 				79552B6B287F44FE00039F57 /* LinkHB.swift */,
 				796930A8287F47310074E964 /* ColorPickerHB.swift */,
+				79C2BD0D28808D5500D136C8 /* Horizontal3DScroll.swift */,
+				79C2BD0F2880905D00D136C8 /* AnimationRepeatDelaySpeed.swift */,
+				79C2BD0B2880892400D136C8 /* RedactedPlaceholder.swift */,
 				79552B60287F352000039F57 /* LottieAnimation */,
 				79552B58287F304900039F57 /* BackgroundBlur */,
 				79552B4E287F1B0900039F57 /* AdvanceGeoEffect */,
 				7923FAB6287C39D500E6EE3D /* Open_Sans */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		798193D9287F561F007EAC4A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				798193DA287F562E007EAC4A /* Buttons */,
+				798193D7287F53DE007EAC4A /* ComponentsHB.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		798193DA287F562E007EAC4A /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				798193DB287F5641007EAC4A /* LargeButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		798193DF287F5779007EAC4A /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				798193DD287F56EE007EAC4A /* BindingHB.swift */,
+				798193E0287F5787007EAC4A /* NewView.swift */,
+			);
+			path = Binding;
+			sourceTree = "<group>";
+		};
+		798193E8287F5A68007EAC4A /* FullScreenModalView */ = {
+			isa = PBXGroup;
+			children = (
+				798193E4287F5A10007EAC4A /* FullScreenModal.swift */,
+				798193E6287F5A59007EAC4A /* ModalView.swift */,
+			);
+			path = FullScreenModalView;
 			sourceTree = "<group>";
 		};
 		79C5540B287BD97F002F059B = {
@@ -513,19 +578,24 @@
 				7923FAB3287C375600E6EE3D /* TextView.swift in Sources */,
 				79552B66287F3F7700039F57 /* LazyStack.swift in Sources */,
 				79C55442287BE5C0002F059B /* Symbols.swift in Sources */,
+				79C2BD102880905D00D136C8 /* AnimationRepeatDelaySpeed.swift in Sources */,
 				79552B50287F1EF500039F57 /* SwiftManagerPAckage.swift in Sources */,
 				796DD61E287BE76D0031CD48 /* ColorLiteral.swift in Sources */,
 				797BD1D3287CA9470062F395 /* DragGestureHB.swift in Sources */,
 				79552B4D287F1B0400039F57 /* PlayView.swift in Sources */,
 				796930AD287F4B990074E964 /* HoverEffectHB.swift in Sources */,
+				798193E5287F5A10007EAC4A /* FullScreenModal.swift in Sources */,
 				796930AB287F49870074E964 /* DatePickerHB.swift in Sources */,
 				7923FB0D287C3CC100E6EE3D /* MaxWidthAndFrame.swift in Sources */,
 				7923FB19287C52F800E6EE3D /* ViewTransitionsAndAnimations.swift in Sources */,
 				7923FB0F287C3DBA00E6EE3D /* ShadowsAndColor.swift in Sources */,
+				79C2BD0A2880884D00D136C8 /* HideStatusBar.swift in Sources */,
 				7923FAAD287C330F00E6EE3D /* ToolBar.swift in Sources */,
 				79552B64287F3C4600039F57 /* LazyGridLayout.swift in Sources */,
 				79552B6C287F44FE00039F57 /* LinkHB.swift in Sources */,
 				79552B4B287F19ED00039F57 /* AdvancedMatchedGeo.swift in Sources */,
+				798193E1287F5787007EAC4A /* NewView.swift in Sources */,
+				798193E3287F5883007EAC4A /* StaticDataHB.swift in Sources */,
 				7923FAAA287C305D00E6EE3D /* TutorialsView.swift in Sources */,
 				79552B57287F304600039F57 /* VisualEffectBlur.swift in Sources */,
 				7923FAB1287C362900E6EE3D /* SafeAreaLayout.swift in Sources */,
@@ -537,12 +607,18 @@
 				7923FB1F287CA48000E6EE3D /* TapAnimationDelay.swift in Sources */,
 				79552B62287F353700039F57 /* LottieView.swift in Sources */,
 				7923FB1B287C54F500E6EE3D /* AnimationModifierAndTiming.swift in Sources */,
+				79C2BD0C2880892400D136C8 /* RedactedPlaceholder.swift in Sources */,
 				7923FAAF287C34BE00E6EE3D /* ImageView.swift in Sources */,
 				79552B6A287F411900039F57 /* NavigationViewHB.swift in Sources */,
 				7923FAB5287C398300E6EE3D /* CustomFont.swift in Sources */,
 				7923FB21287CA69800E6EE3D /* LongPressGesture.swift in Sources */,
 				79C5541A287BD97F002F059B /* ContentView.swift in Sources */,
+				798193DC287F5641007EAC4A /* LargeButton.swift in Sources */,
+				798193E7287F5A59007EAC4A /* ModalView.swift in Sources */,
+				79C2BD0E28808D5500D136C8 /* Horizontal3DScroll.swift in Sources */,
 				7923FB15287C507A00E6EE3D /* TabViewPagination.swift in Sources */,
+				798193D8287F53DE007EAC4A /* ComponentsHB.swift in Sources */,
+				798193DE287F56EE007EAC4A /* BindingHB.swift in Sources */,
 				79C55418287BD97F002F059B /* SwiftUI_HandbookApp.swift in Sources */,
 				7923FB1D287C584C00E6EE3D /* TransfromAnimations.swift in Sources */,
 			);

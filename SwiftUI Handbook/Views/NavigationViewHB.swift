@@ -18,7 +18,7 @@ struct NavigationViewHB: View {
                         .frame(height: 100)
                     .padding()
                 }
-                NavigationLink(destination: AdvancedMatchedGeo()) {
+                NavigationLink(destination: HideStatusBar()) {
                     RoundedRectangle(cornerRadius: 30)
                         .fill(Color.blue)
                         .frame(height: 100)
@@ -30,7 +30,7 @@ struct NavigationViewHB: View {
                         .frame(height: 100)
                     .padding()
                 }
-                NavigationLink(destination: HoverEffectHB()) {
+                NavigationLink(destination: RedactedPlaceholder()) {
                     RoundedRectangle(cornerRadius: 30)
                         .fill(Color.green)
                         .frame(height: 100)
@@ -57,6 +57,18 @@ struct NavigationViewHB: View {
                 NavigationLink(destination: ViewTransitionsAndAnimations()) {
                     RoundedRectangle(cornerRadius: 30)
                         .fill(Color.green)
+                        .frame(height: 100)
+                    .padding()
+                }
+                NavigationLink(destination: ComponentsHB()) {
+                    RoundedRectangle(cornerRadius: 30)
+                        .fill(Color.white)
+                        .frame(height: 100)
+                    .padding()
+                }
+                NavigationLink(destination: BindingHB()) {
+                    RoundedRectangle(cornerRadius: 30)
+                        .fill(Color.black)
                         .frame(height: 100)
                     .padding()
                 }
