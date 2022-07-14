@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Binding var tabSelection: Int
+    
     var body: some View {
         ZStack {
             Rectangle()
-                .fill(Color.blue).ignoresSafeArea()
+                .fill(Color.clear).ignoresSafeArea()
             
             VStack {
                 Circle()
@@ -23,6 +25,9 @@ struct ContentView: View {
                     .foregroundColor(Color.green)
                     .frame(height: 44)
                     .overlay(Text("Sign Up").fontWeight(.heavy))
+                    .onTapGesture {
+                        tabSelection = 2
+                    }
             }
             .padding()
             .background(Color.white)
@@ -36,7 +41,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(tabSelection: .constant(1))
             .previewInterfaceOrientation(.portraitUpsideDown)
     }
 }

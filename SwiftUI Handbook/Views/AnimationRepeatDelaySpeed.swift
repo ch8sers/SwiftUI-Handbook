@@ -16,7 +16,7 @@ struct AnimationRepeatDelaySpeed: View {
             .stroke(Color.blue, style: StrokeStyle(lineWidth: 5, lineCap: .round, lineJoin: .round))
             .frame(width: 44, height: 44)
             .rotationEffect(Angle(degrees: appear ? 360 : 0))
-            .animation(Animation.linear(duration: 2).delay(1).repeatCount(3, autoreverses: false))
+            .animation(Animation.linear(duration: 2).repeatForever(autoreverses: false).speed(3))
             .onAppear {
                 appear = true
             }

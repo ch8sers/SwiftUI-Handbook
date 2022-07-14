@@ -97,6 +97,14 @@
 		79C2BD0C2880892400D136C8 /* RedactedPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2BD0B2880892400D136C8 /* RedactedPlaceholder.swift */; };
 		79C2BD0E28808D5500D136C8 /* Horizontal3DScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2BD0D28808D5500D136C8 /* Horizontal3DScroll.swift */; };
 		79C2BD102880905D00D136C8 /* AnimationRepeatDelaySpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2BD0F2880905D00D136C8 /* AnimationRepeatDelaySpeed.swift */; };
+		79C2BD122880923900D136C8 /* TabSelectionHB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2BD112880923900D136C8 /* TabSelectionHB.swift */; };
+		79C2BD142880954900D136C8 /* StatusBarSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2BD132880954900D136C8 /* StatusBarSize.swift */; };
+		79C2BD162880964800D136C8 /* ModalPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2BD152880964800D136C8 /* ModalPresentation.swift */; };
+		79C2BD18288096A100D136C8 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2BD17288096A100D136C8 /* GradientButton.swift */; };
+		79C2BD1A2880974200D136C8 /* GradientIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2BD192880974200D136C8 /* GradientIcon.swift */; };
+		79C2BD1C2880984200D136C8 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2BD1B2880984200D136C8 /* SignInView.swift */; };
+		79C2BD2028809A3300D136C8 /* RemoteImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C2BD1F28809A3300D136C8 /* RemoteImages.swift */; };
+		79C2BD232880ACB900D136C8 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 79C2BD222880ACB900D136C8 /* SDWebImageSwiftUI */; };
 		79C55418287BD97F002F059B /* SwiftUI_HandbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C55417287BD97F002F059B /* SwiftUI_HandbookApp.swift */; };
 		79C5541A287BD97F002F059B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C55419287BD97F002F059B /* ContentView.swift */; };
 		79C5541C287BD980002F059B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C5541B287BD980002F059B /* Assets.xcassets */; };
@@ -194,6 +202,13 @@
 		79C2BD0B2880892400D136C8 /* RedactedPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedactedPlaceholder.swift; sourceTree = "<group>"; };
 		79C2BD0D28808D5500D136C8 /* Horizontal3DScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horizontal3DScroll.swift; sourceTree = "<group>"; };
 		79C2BD0F2880905D00D136C8 /* AnimationRepeatDelaySpeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationRepeatDelaySpeed.swift; sourceTree = "<group>"; };
+		79C2BD112880923900D136C8 /* TabSelectionHB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSelectionHB.swift; sourceTree = "<group>"; };
+		79C2BD132880954900D136C8 /* StatusBarSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarSize.swift; sourceTree = "<group>"; };
+		79C2BD152880964800D136C8 /* ModalPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPresentation.swift; sourceTree = "<group>"; };
+		79C2BD17288096A100D136C8 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		79C2BD192880974200D136C8 /* GradientIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientIcon.swift; sourceTree = "<group>"; };
+		79C2BD1B2880984200D136C8 /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		79C2BD1F28809A3300D136C8 /* RemoteImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImages.swift; sourceTree = "<group>"; };
 		79C55414287BD97F002F059B /* SwiftUI Handbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Handbook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C55417287BD97F002F059B /* SwiftUI_HandbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_HandbookApp.swift; sourceTree = "<group>"; };
 		79C55419287BD97F002F059B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -207,6 +222,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79C2BD232880ACB900D136C8 /* SDWebImageSwiftUI in Frameworks */,
 				79552B53287F1FA400039F57 /* SwiftUIX in Frameworks */,
 				79552B5B287F34CF00039F57 /* Lottie in Frameworks */,
 			);
@@ -349,6 +365,7 @@
 				7923FB0E287C3DBA00E6EE3D /* ShadowsAndColor.swift */,
 				7923FB10287C3F1200E6EE3D /* MaskAndTransParency.swift */,
 				7923FB12287C409500E6EE3D /* ClipShape and Smooth.swift */,
+				79C2BD1F28809A3300D136C8 /* RemoteImages.swift */,
 				7923FB14287C507A00E6EE3D /* TabViewPagination.swift */,
 				79C2BD092880884D00D136C8 /* HideStatusBar.swift */,
 				7923FB16287C515C00E6EE3D /* AnimationStates.swift */,
@@ -360,6 +377,7 @@
 				797BD1D2287CA9470062F395 /* DragGestureHB.swift */,
 				797BD1D4287CAAD00062F395 /* MatchedGeometryEffect.swift */,
 				796930AC287F4B990074E964 /* HoverEffectHB.swift */,
+				79C2BD1D2880985200D136C8 /* ModalPresentation */,
 				798193E2287F5883007EAC4A /* StaticDataHB.swift */,
 				798193E8287F5A68007EAC4A /* FullScreenModalView */,
 				798193DF287F5779007EAC4A /* Binding */,
@@ -369,8 +387,10 @@
 				79552B65287F3F7700039F57 /* LazyStack.swift */,
 				796930AA287F49870074E964 /* DatePickerHB.swift */,
 				79552B6B287F44FE00039F57 /* LinkHB.swift */,
+				79C2BD132880954900D136C8 /* StatusBarSize.swift */,
 				796930A8287F47310074E964 /* ColorPickerHB.swift */,
 				79C2BD0D28808D5500D136C8 /* Horizontal3DScroll.swift */,
+				79C2BD112880923900D136C8 /* TabSelectionHB.swift */,
 				79C2BD0F2880905D00D136C8 /* AnimationRepeatDelaySpeed.swift */,
 				79C2BD0B2880892400D136C8 /* RedactedPlaceholder.swift */,
 				79552B60287F352000039F57 /* LottieAnimation */,
@@ -414,6 +434,25 @@
 				798193E6287F5A59007EAC4A /* ModalView.swift */,
 			);
 			path = FullScreenModalView;
+			sourceTree = "<group>";
+		};
+		79C2BD1D2880985200D136C8 /* ModalPresentation */ = {
+			isa = PBXGroup;
+			children = (
+				79C2BD152880964800D136C8 /* ModalPresentation.swift */,
+				79C2BD1B2880984200D136C8 /* SignInView.swift */,
+				79C2BD1E2880986300D136C8 /* Components */,
+			);
+			path = ModalPresentation;
+			sourceTree = "<group>";
+		};
+		79C2BD1E2880986300D136C8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				79C2BD17288096A100D136C8 /* GradientButton.swift */,
+				79C2BD192880974200D136C8 /* GradientIcon.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		79C5540B287BD97F002F059B = {
@@ -471,6 +510,7 @@
 			packageProductDependencies = (
 				79552B52287F1FA400039F57 /* SwiftUIX */,
 				79552B5A287F34CF00039F57 /* Lottie */,
+				79C2BD222880ACB900D136C8 /* SDWebImageSwiftUI */,
 			);
 			productName = "SwiftUI Handbook";
 			productReference = 79C55414287BD97F002F059B /* SwiftUI Handbook.app */;
@@ -503,6 +543,7 @@
 			packageReferences = (
 				79552B51287F1FA400039F57 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
 				79552B59287F34CF00039F57 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				79C2BD212880ACB800D136C8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = 79C55415287BD97F002F059B /* Products */;
 			projectDirPath = "";
@@ -577,11 +618,14 @@
 				7923FAA6287C2F3E00E6EE3D /* SideBar.swift in Sources */,
 				7923FAB3287C375600E6EE3D /* TextView.swift in Sources */,
 				79552B66287F3F7700039F57 /* LazyStack.swift in Sources */,
+				79C2BD162880964800D136C8 /* ModalPresentation.swift in Sources */,
+				79C2BD142880954900D136C8 /* StatusBarSize.swift in Sources */,
 				79C55442287BE5C0002F059B /* Symbols.swift in Sources */,
 				79C2BD102880905D00D136C8 /* AnimationRepeatDelaySpeed.swift in Sources */,
 				79552B50287F1EF500039F57 /* SwiftManagerPAckage.swift in Sources */,
 				796DD61E287BE76D0031CD48 /* ColorLiteral.swift in Sources */,
 				797BD1D3287CA9470062F395 /* DragGestureHB.swift in Sources */,
+				79C2BD18288096A100D136C8 /* GradientButton.swift in Sources */,
 				79552B4D287F1B0400039F57 /* PlayView.swift in Sources */,
 				796930AD287F4B990074E964 /* HoverEffectHB.swift in Sources */,
 				798193E5287F5A10007EAC4A /* FullScreenModal.swift in Sources */,
@@ -590,6 +634,7 @@
 				7923FB19287C52F800E6EE3D /* ViewTransitionsAndAnimations.swift in Sources */,
 				7923FB0F287C3DBA00E6EE3D /* ShadowsAndColor.swift in Sources */,
 				79C2BD0A2880884D00D136C8 /* HideStatusBar.swift in Sources */,
+				79C2BD1C2880984200D136C8 /* SignInView.swift in Sources */,
 				7923FAAD287C330F00E6EE3D /* ToolBar.swift in Sources */,
 				79552B64287F3C4600039F57 /* LazyGridLayout.swift in Sources */,
 				79552B6C287F44FE00039F57 /* LinkHB.swift in Sources */,
@@ -597,9 +642,12 @@
 				798193E1287F5787007EAC4A /* NewView.swift in Sources */,
 				798193E3287F5883007EAC4A /* StaticDataHB.swift in Sources */,
 				7923FAAA287C305D00E6EE3D /* TutorialsView.swift in Sources */,
+				79C2BD2028809A3300D136C8 /* RemoteImages.swift in Sources */,
 				79552B57287F304600039F57 /* VisualEffectBlur.swift in Sources */,
+				79C2BD1A2880974200D136C8 /* GradientIcon.swift in Sources */,
 				7923FAB1287C362900E6EE3D /* SafeAreaLayout.swift in Sources */,
 				7923FB17287C515C00E6EE3D /* AnimationStates.swift in Sources */,
+				79C2BD122880923900D136C8 /* TabSelectionHB.swift in Sources */,
 				7923FAA8287C303E00E6EE3D /* HomeView.swift in Sources */,
 				797BD1D5287CAAD00062F395 /* MatchedGeometryEffect.swift in Sources */,
 				79552B5D287F34F400039F57 /* LottieAnimation.swift in Sources */,
@@ -841,6 +889,14 @@
 				minimumVersion = 3.0.0;
 			};
 		};
+		79C2BD212880ACB800D136C8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -853,6 +909,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 79552B59287F34CF00039F57 /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		79C2BD222880ACB900D136C8 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79C2BD212880ACB800D136C8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

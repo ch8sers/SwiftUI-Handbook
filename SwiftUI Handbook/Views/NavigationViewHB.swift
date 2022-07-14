@@ -18,7 +18,7 @@ struct NavigationViewHB: View {
                         .frame(height: 100)
                     .padding()
                 }
-                NavigationLink(destination: HideStatusBar()) {
+                NavigationLink(destination: ModalPresentation()) {
                     RoundedRectangle(cornerRadius: 30)
                         .fill(Color.blue)
                         .frame(height: 100)
@@ -42,7 +42,7 @@ struct NavigationViewHB: View {
                         .frame(height: 100)
                     .padding()
                 }
-                NavigationLink(destination: LinkHB()) {
+                NavigationLink(destination: TabSelectionHB()) {
                     RoundedRectangle(cornerRadius: 30)
                         .fill(Color.blue)
                         .frame(height: 100)
