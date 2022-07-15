@@ -12,7 +12,7 @@ struct NavigationViewHB: View {
     var body: some View {
         NavigationView {
             ScrollView {
-                NavigationLink(destination: LottieAnimation()) {
+                NavigationLink(destination: DismissKeyboard()) {
                     RoundedRectangle(cornerRadius: 30)
                         .fill(Color.orange)
                         .frame(height: 100)
@@ -24,7 +24,7 @@ struct NavigationViewHB: View {
                         .frame(height: 100)
                     .padding()
                 }
-                NavigationLink(destination: ColorPickerHB()) {
+                NavigationLink(destination: AVPlayerHB()) {
                     RoundedRectangle(cornerRadius: 30)
                         .fill(Color.red)
                         .frame(height: 100)
